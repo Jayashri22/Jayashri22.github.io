@@ -1,0 +1,23 @@
+body{
+	font-family: sans-serif;
+}
+h1{
+	text-align: center;
+	color: forestgreen;
+	margin: 30px 0 50px;
+}
+.gallery{
+	margin: 10px 50px;
+	
+}
+.gallery img{
+	padding: 5px;
+	width: 230px;
+	filter: grayscale(100%); // this will give the gray color effect
+	transition: 5s;
+}
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1); // this will zoom image 1.1
+	
+}
